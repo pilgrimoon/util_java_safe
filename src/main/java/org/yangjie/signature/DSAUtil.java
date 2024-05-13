@@ -13,6 +13,7 @@ import java.util.Base64;
  * @author YangJie [2017年10月10日 下午3:58:10]
  */
 public class DSAUtil {
+	public static HashMap<User, KeyPair> keyMap;
 
 	/**
 	 * 签名
